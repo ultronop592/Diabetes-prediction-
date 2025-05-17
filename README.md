@@ -99,35 +99,3 @@ Output: Non-diabetic (0)
 
 
 
-How to Run the Project
-
-Clone the Repository:git clone https://github.com/your-username/diabetes-prediction.git
-cd diabetes-prediction
-
-
-Install Dependencies:Ensure you have Python installed, then install the required libraries:pip install pandas numpy scikit-learn
-
-
-Download the Dataset:
-Place the diabetes.csv file in the project directory. You can find similar datasets on Kaggle (e.g., Pima Indians Diabetes Database).
-
-
-Run the Google Colab :Google Colab and open PROJECT_1_diabetes_prediction.ipynb:Google Colab
-
-Run all cells in the notebook to see the results.
-Test Predictions:Modify the input_data in the last cell to test new predictions.
-
-Limitations and Future Work
-
-Data Quality: The dataset has some unrealistic values (e.g., 0 for Glucose, BMI), which may need cleaning or imputation.
-Model Improvement: Other algorithms (e.g., Random Forest, Logistic Regression) could be tested to improve accuracy.
-Feature Engineering: Adding new features or handling missing data might enhance performance.
-
-License
-This project is licensed under the MIT License. Feel free to use and modify it as needed.
-Acknowledgments
-
-The dataset is sourced from a publicly available repository (originally from the Pima Indians Diabetes Database).
-Thanks to scikit-learn for providing the tools to build this model.
-
-
